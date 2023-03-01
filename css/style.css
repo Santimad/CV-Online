@@ -11,10 +11,11 @@
 #wpButton {
   background-color:green;
  } 
+ 
 
-/* Style links */
+/* Style links
 a {text-decoration: none; color: grey;} a:active{color: darkorange;} a:link{color: grey;} a:hover{color:green;}
-/* Style links */
+*/
 
 table{ width: 90vw; height: 26vh; font-size: 1.8vh;}
 td, th {
