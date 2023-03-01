@@ -1,17 +1,33 @@
 *{box-sizing: border-box;}
-/* header styles */
 
+/* header styles */
 #encabezado {
   background-color: gold;
   padding-bottom:1rem;
+  border-bottom: 2px solid black;
   }
 #fotoPerfil {
   border:2px solid black;
   }
 #wpButton {
   background-color:green;
- } 
- 
+ }
+#pdfButton{
+  background-color:grey;
+  }
+#menu{
+  border-bottom:2px solid black;
+  }
+
+ul > li {
+  list-style-type:none;
+  }
+
+nav ul {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  }
 
 /* Style links
 a {text-decoration: none; color: grey;} a:active{color: darkorange;} a:link{color: grey;} a:hover{color:green;}
