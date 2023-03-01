@@ -1,15 +1,16 @@
 *{box-sizing: border-box;}
+/* header styles */
 
-#introduccion > .container {display: flex; height: 19vh;}
-#introduccion > .container > .perfil { display: flex; flex-direction: column; 
-justify-content: flex-start;  margin: 2vh 0 0 2vw; }
-#introduccion > .container > .perfil > .nombre { font-size: 3.6vh;}
-#introduccion > .container > .perfil > .datos { display: flex; flex-direction: column; justify-content: space-around;
-  align-items: flex-start; margin-top: 1vh; height: 170px; font-size:1.6vh;}
-#introduccion > .container > .perfil > .datos #mail > a {margin-left: 5px;}
-#introduccion > .container > .perfil > .datos span { margin-left: 0; font-size: 1.2em;}
-#introduccion > .container > span {color: grey;}
-#introduccion .picture{border-radius: 50%; order: -1;}
+#encabezado {
+  background-color: gold;
+  padding-bottom:1rem;
+  }
+#fotoPerfil {
+  border:2px solid black;
+  }
+#wpButton {
+  background-color:green;
+ } 
 
 /* Style links */
 a {text-decoration: none; color: grey;} a:active{color: darkorange;} a:link{color: grey;} a:hover{color:green;}
