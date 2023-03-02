@@ -18,6 +18,9 @@
 #menu{
   border-bottom:2px solid black;
   }
+.empresa{
+  color:green;
+}
 
 ul > li {
   list-style-type:none;
