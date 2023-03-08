@@ -1,4 +1,6 @@
-
+#inicio {
+  padding-bottom: 6rem;
+  }
 #fotoPerfil {
   border:2px solid black;
   height: 200px;
