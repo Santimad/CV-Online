@@ -1,5 +1,5 @@
 #inicio {
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
   }
 #fotoPerfil {
   border:2px solid black;
@@ -9,9 +9,6 @@
 #wpButton {
   background-color:green;
  }
-#pdfButton{
-  background-color:grey;
-  }
 #menu{
   border-bottom:2px solid black;
   }
@@ -54,7 +51,7 @@ ul i{
   text-align:center;
   }
 
-nav ul {
+nav ul { /* esto puede que ya no sirva */
   display: flex;
   flex-direction:row;
   justify-content: space-around;
@@ -90,6 +87,12 @@ nav ul {
    }
   .acerca {
     width: 80%;
+  }
+}
+@media (min-width:768px) {
+  #fotoPerfil {
+  height: 240px;
+  width:205px;
   }
 }
 
