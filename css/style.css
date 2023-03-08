@@ -78,17 +78,17 @@ background-color: blanchedalmond;
   color:darkorange;
 }
 
-.descripcion {
+p[class*="descripcion"] {
   text-align: justify;
   padding-right: 1em;
 }
 
 @media (min-width:576px) and (orientation: landscape) {
-  .descripcion{
+  .descripcion-main{
     width: 90%;
    }
-  .acerca {
-    width: 80%;
+  .descripcion-footer {
+    width: 75%;
   }
 }
 @media (min-width:768px) {
@@ -96,8 +96,11 @@ background-color: blanchedalmond;
   height: 240px;
   width:205px;
   }
-  .descripcion {
+  .descripcion-main {
     width: 80%;
     } 
+  .descripcion-footer{
+    width: 50%;
+  }
 }
 
