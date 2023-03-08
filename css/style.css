@@ -1,13 +1,8 @@
-*{box-sizing: border-box;}
 
-/* header styles */
-#encabezado {
-  background-color: gold;
-  padding-bottom:1rem;
-  border-bottom: 2px solid black;
-  }
 #fotoPerfil {
   border:2px solid black;
+  height: 200px;
+  width:175px;
   }
 #wpButton {
   background-color:green;
@@ -18,12 +13,34 @@
 #menu{
   border-bottom:2px solid black;
   }
-.empresa{
-  color:green;
+#footerPicture {
+  width: 190px;
+  height: 220px;
 }
+#redSocial{
+  width: 190px;
+  }
+/* Esta regla podría ser mas general */
+#redSocial a {
+  text-decoration:none;
+}
+#mail {
+  text-decoration:none;
+  }
+/*
+#experienciaLaboral {
+   border: 1px solid midnightblue;
+}*/
 
 ul > li {
   list-style-type:none;
+  padding-top: 0.2rem;/* Esto puede ser molesto en algunas ocaciones.
+  Quizas se pueda añadir especificidad.*/
+  }
+/* Esta regla también es muy general */
+ul i{
+  width: 2rem;
+  text-align:center;
   }
 
 nav ul {
@@ -32,44 +49,36 @@ nav ul {
   justify-content: space-around;
   }
 
-/* Style links
-a {text-decoration: none; color: grey;} a:active{color: darkorange;} a:link{color: grey;} a:hover{color:green;}
-*/
-
-table{ width: 90vw; height: 26vh; font-size: 1.8vh;}
-td, th {
-    border: 1px solid #999;
-    padding: 0.5rem;
+.empresa { 
+  color:chocolate;
   }
-
-  /*Sección de experiencia */
-#experiencia > dl > dt{ color:green;}
-/* Sección de intereses */
-#intereses { position: relative;}
-#intereses > div.container { width: 100vw; }
-#intereses > div.container > div.split > div.flex {display: flex; justify-content: space-around; 
-
+.logoEmpresa{
+  width: 150px;
+  height: 150px
 }
-#intereses > div.container > div.split > div.flex ul { display: flex; height: 130px;
-flex-direction: column; margin-top:auto;
- list-style-type: none;} 
-#intereses > div.container > div.split > div.flex ul > li {z-index: 2; width: 60vw;}
-#intereses > div.container > div.split > div.flex ul > li:nth-child(2) {margin-top: 5vh; }
-#intereses > div.container > div.split > div.flex ul > li > span{margin-left: 4vw; font-size: 1.8vh;}
-#intereses > div.container > div.split > div.flex ul > li:before {position: absolute;content: ""; 
-    border-radius: 50%; border: 1px dotted darkorange;
-    width: 40px; height: 40px;
-    background-color: hsl(24, 20%, 95%); opacity: 1;
-    z-index: -1;} 
-#intereses > div.container > div.split > div.flex ul > li > img {position:relative; top: 0.3em; left: 0.4em;}
-#intereses > div.container > div.split {
-    height: 140px;
-    width:50%; 
-    float:left;
+/* FONT SIZES */
+
+.fs-small{
+  font-size:small;
   }
-/*Sección de objetivos */
-  #disponibilidad {clear:left;}
 
+/* Colores */
 
+.darkorange {
+  color:darkorange;
+}
 
+.descripcion {
+  text-align: justify;
+  padding-right: 1em;
+}
+
+@media (min-width:576px) and (orientation: landscape) {
+  .descripcion{
+    width: 90%;
+   }
+  .acerca {
+    width: 80%;
+  }
+}
 
