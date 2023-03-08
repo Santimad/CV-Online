@@ -27,6 +27,12 @@
 #mail {
   text-decoration:none;
   }
+#experienciaLaboral{
+  color: blanchedalmond;
+  height:3.5em;
+  border-top: 2px solid chocolate;
+  border-bottom: 2px solid chocolate;
+}
 /*
 #experienciaLaboral {
    border: 1px solid midnightblue;
