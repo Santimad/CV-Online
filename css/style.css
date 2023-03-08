@@ -25,13 +25,7 @@
 }
 #mail {
   text-decoration:none;
-  }
-#titulo{
-  color: blanchedalmond;
-  height:3.5em;
-  border-top: 2px solid chocolate;
-  border-bottom: 2px solid chocolate;
-}
+  } 
 #acerca{
   background-color: gold;
 }
@@ -56,6 +50,9 @@ nav ul { /* esto puede que ya no sirva */
   flex-direction:row;
   justify-content: space-around;
   }
+main{
+background-color: blanchedalmond;
+}
 
 .empresa { 
   color:chocolate;
@@ -63,6 +60,11 @@ nav ul { /* esto puede que ya no sirva */
 .logoEmpresa{
   width: 150px;
   height: 150px
+}
+.titulo{
+  color: blanchedalmond;
+  border-top: 2px solid chocolate;
+  border-bottom: 2px solid chocolate;
 }
 /* FONT SIZES */
 
@@ -94,5 +96,8 @@ nav ul { /* esto puede que ya no sirva */
   height: 240px;
   width:205px;
   }
+  .descripcion {
+    width: 80%;
+    } 
 }
 
