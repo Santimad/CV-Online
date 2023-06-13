@@ -7,8 +7,9 @@
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-        
-        <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" media="only screen and (min-width:576px) and (orientation: landscape)" href="css/landscape.css">
+	<link rel="stylesheet" media="only screen and (min-width:768px)" href="laptop.css">
+	<link rel="stylesheet" href="css/style.css">
     </head>
     <body>
 <nav class="navbar sticky-top navbar-expand-lg bg-dark">
@@ -40,7 +41,7 @@
           <a class="nav-link" aria-current="page" href="#acerca"> 
             Acerca de m&iacute; 
           </a>
-        </li>
+        </li>	
       </ul>
     </div>  
   </div>
@@ -48,12 +49,14 @@
 
 <header class="pt-2 pt-md-4" id="inicio">
   <div class="container-fluid"> 
-    <div class="row m-2 px-sm-0 m-sm-0 m-md-1">
+    <div class="row m-2
+		px-sm-0 m-sm-0 
+		m-md-1">
       <div class="col-8 col-sm-3 col-md-3 py-0 p-sm-0 m-1 m-sm-0 overflow-hidden" id="fotoPerfil"> 
-        <img class="img-fluid" src="https://santimad.github.io/CV-Online/img/IMG_20230607_125306372.jpg" alt="Foto de perfil"/>
+        <img class="img-fluid" src="img/perfil_photo.jpg" alt="Foto de perfil"/>
       </div>
       <div class="d-sm-flex flex-sm-column justify-content-sm-end
-                  col col-sm col-md-4 
+                  col col-sm-9 col-md-4 
                   pl-sm-2">
         <h1 class="mt-2 mt-sm-1 p-1 mb-sm-auto text-dark" > Santiago S. Madrid </h1>
         <ul class="p-0 mt-2 mb-sm-2 ">
@@ -91,9 +94,9 @@
         </ul>
       </div>
         
-      <div class="col col-sm-4 col-md-5 
+      <div class="col col-sm col-md-5 
                   d-flex flex-row justify-content-between
-                  flex-sm-column justify-content-sm-end
+                  flex-sm-row justify-content-sm-start
                   flex-md-row align-items-md-end justify-content-md-center
                   p-0 pb-sm-1 px-d-2">
         

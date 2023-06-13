@@ -2,7 +2,6 @@
   padding-bottom: 3rem;
   }
 #fotoPerfil {
-  height: 200px;
   }
 #wpButton {
   background-color:green;
@@ -80,7 +79,7 @@ p[class*="descripcion"] {
   text-align: justify;
   padding-right: 1em;
 }
-
+/*
 @media (min-width:576px) and (orientation: landscape) {
   .descripcion-main{
     width: 90%;
@@ -90,6 +89,10 @@ p[class*="descripcion"] {
   }
 }
 @media (min-width:768px) {
+  #inicio {
+    height: 25rem;
+    margin: 3rem;
+  }
   #fotoPerfil {
   height: 240px;
   width:205px;
@@ -101,4 +104,4 @@ p[class*="descripcion"] {
     width: 50%;
   }
 }
-
+*/
