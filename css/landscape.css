@@ -1,5 +1,23 @@
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
 .descripcion-main{
     width: 90%;                                                                                  }
 .descripcion-footer {
     width: 75%;
   }
+#inicio{
+    height: 400px;
+}
+#fotoDePerfil{
+    height: 205px;
+    width: 200px;
+}
+#contact_buttons{
+    margin-left: 200px;
+}
