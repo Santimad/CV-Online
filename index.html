@@ -7,8 +7,8 @@
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-	<link rel="stylesheet" media="only screen and (min-width:576px) and (orientation: landscape)" href="css/landscape.css">
-	<link rel="stylesheet" media="only screen and (min-width:768px)" href="laptop.css">
+	<link rel="stylesheet" media="only screen and (orientation: landscape)" href="css/landscape.css">
+	<link rel="stylesheet" media="only screen and (min-width:768px)" href="css/laptop.css">
 	<link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -33,7 +33,7 @@
           </a>
         </li>
         <li class="nav-item"> 
-          <a class="nav-link" aria-current="page" href="#experienciaLaboral"> 
+          <a class="nav-link" aria-current="page" href="#separator_title"> 
             Experiencia laboral 
           </a>
         </li>            
@@ -49,22 +49,22 @@
 
 <header class="pt-2 pt-md-4" id="inicio">
   <div class="container-fluid"> 
-    <div class="row m-2
-		px-sm-0 m-sm-5 
-		m-md-1">
-      <div class="col-8 py-0 m-1
-		  col-sm p-sm-0 m-sm-0
-		  col-md-3
-		  overflow-hidden" id="fotoDePerfil"> 
+    <div class="row m-2 m-sm-0 my-sm-5
+		px-sm-0  mx-md-0 
+		justify-content-sm-center">
+      <div id="fotoDePerfil" class="col-8 py-0 m-1
+				    col-sm p-sm-0 m-sm-0
+				    col-md-6
+				    overflow-hidden"> 
         <img class="img-fluid" src="img/perfil_photo.jpg" alt="Foto de perfil"/>
       </div>
       <div class="col border 
-		  col-sm d-sm-flex flex-sm-column pl-sm-2 align-items-sm-start 
-		  col-md-4">
+		  col-sm-6 d-sm-flex flex-sm-column pl-sm-2 align-items-sm-start
+		  col-md-6">
         <h1 class="mt-2 p-1 
-		   mt-sm-0
+		   mt-sm-0 p-sm-1
 		   text-dark" > Santiago S. Madrid </h1>
-        <ul class="p-0 mt-3 ">
+        <ul class="p-0 mt-3 mt-md-4 pt-sm-1">
           <li>
             <i class="fa-solid fa-envelope fa-lg"></i>
             <a class="text-dark" id="mail" href="mailto:santiago.madrid14@gmai.com">  
@@ -98,15 +98,17 @@
           </li>
         </ul>
       </div>
-      <div id="contact_buttons" class="col col-sm-7 col-md-5 border 
-                  d-flex flex-row justify-content-between
-                  p-0 pb-sm-1 px-d-2">
-        
-        <a class="btn fw-light my-1 mx-md-2 text-white" id="wpButton" href="https://wa.me/543512006000" target="_blank">
+      <div class="col-sm-5 col-md-4"></div>
+      <div id="contact_buttons"
+	   class="col col-sm-7 col-md-8 border 
+		  d-flex flex-row justify-content-between
+		  justify-content-sm-end
+		  py-2 px-0 py-sm-0 pb-sm-1">
+        <a class="btn fw-light my-1 text-white" id="wpButton" href="https://wa.me/543512006000" target="_blank">
         <i class="fa-brands fa-whatsapp fa-lg"></i>
         Enviar mensaje
         </a>
-        <a class="btn text-white fw-light my-1 mx-md-2 bg-dark" href="https://wa.me/543512006000" target="_blank">
+        <a class="btn text-white fw-light my-1 mx-sm-2 bg-dark" href="https://wa.me/543512006000" target="_blank">
         <i class="fa-solid fa-circle-down fa-lg"></i>
          Descargar PDF
         </a>
@@ -120,9 +122,9 @@
 
 <main class="pb-5">
   <div class="container-fluid ">
-    <div class="row text-center">
-      <div class="col titulo bg-dark">
-        <h4 class="py-3" id="experienciaLaboral"> EXPERIENCIA LABORAL </h4>
+    <div class="row">
+      <div class="col py-3 text-center titulo bg-dark">
+        <h4 class="m-0 p-0" id="separator_title"> EXPERIENCIA LABORAL </h4>
      </div>
    </div>
  </div>
@@ -240,7 +242,91 @@
         </div>
       </section>
 </main>
-    
+<aside class='titulo bg-dark 'id='aptitudes'>
+    <div class="container-fluid p-3">
+	<div class="row">
+	    <h4 class='col' id="aptitudes_title"> Habilidades & aptitudes </h4>
+	</div>
+	<div class="row my-3 justify-content-center gy-2">
+	    <div class="col-sm">
+		<div class="d-flex flex-column align-items-center border">
+		    <img class="img-fluid my-2 
+			 border border-3 border-secondary rounded-circle" 
+			 id="card_img" src="img/olla-caliente.png" 
+			 alt="Cacerola con huevo frito">
+		    <h6 class="card_title my-2">
+			COCINA
+		    </h6>
+		    <div class="score my-2">
+			<i class="fa-solid fa-star fa-lg"></i>
+			<i class="fa-solid fa-star fa-lg"></i>
+			<i class="fa-solid fa-star fa-lg"></i>
+			<i class="fa-solid fa-star fa-lg"></i>
+		    </div>
+		</div>
+	    </div>
+	    <div class="col-sm">
+		<div class="d-flex flex-column align-items-center border">                                         <img class="img-fluid my-2                                                                          border border-3 border-secondary rounded-circle"
+                         id="card_img" src="img/mesero.png"
+                         alt="Cacerola con huevo frito">
+                    <h6 class="card_title my-2">
+                        MESERO
+                    </h6>
+		    <div class="score my-2">                                                                           <i class="fa-solid fa-star fa-lg"></i>                                                         <i class="fa-solid fa-star fa-lg"></i>
+                        <i class="fa-solid fa-star fa-lg"></i>
+                    </div>
+                </div>
+	    </div>
+	    <div class="col-sm">
+		<div class="d-flex flex-column align-items-center border">                                         <img class="img-fluid my-2                                                                          border border-3 border-secondary rounded-circle"
+                         id="card_img" src="img/menu.png"
+                         alt="Cacerola con huevo frito">
+                    <h6 class="card_title my-2">
+                        ATENCIÓN AL CLIENTE
+                    </h6>
+		    <div class="score my-2">
+                        <i class="fa-solid fa-star fa-lg"></i>
+                        <i class="fa-solid fa-star fa-lg"></i>
+                        <i class="fa-solid fa-star fa-lg"></i>
+			<i class="fa-solid fa-star fa-lg"></i>
+			<i class="fa-solid fa-star fa-lg"></i>
+		    </div>                                                                                     </div>
+	    </div>
+	</div>
+	<div class="row my-3 gy-2">
+	    <div class="col-sm-2"></div>
+            <div class="col-sm">
+                <div class="d-flex flex-column align-items-center border">                                         <img class="img-fluid my-2
+                         border border-3 border-secondary rounded-circle"
+                         id="card_img" src="img/cocteles.png"
+                         alt="Cacerola con huevo frito">
+                    <h6 class="card_title my-2">
+                        Jugos y tragos
+                    </h6>
+		    <div class="score my-2">
+                        <i class="fa-solid fa-star fa-lg"></i>
+                        <i class="fa-solid fa-star fa-lg"></i>
+		    </div>
+		</div>
+	    </div>
+            <div class="col-sm">
+                <div class="d-flex flex-column align-items-center border">                                         <img class="img-fluid my-2
+                         border border-3 border-secondary rounded-circle"
+                         id="card_img" src="img/limpiar.png"
+                         alt="Cacerola con huevo frito">
+                    <h6 class="card_title my-2">
+                        Limpieza y orden
+                    </h6>
+		    <div class="score my-2">
+                        <i class="fa-solid fa-star fa-lg"></i>
+                        <i class="fa-solid fa-star fa-lg"></i>
+                        <i class="fa-solid fa-star fa-lg"></i>
+                        <i class="fa-solid fa-star fa-lg"></i>                                                         <i class="fa-solid fa-star fa-lg"></i>                                                     </div>                                                                                     </div>
+	    </div>
+	    <div class="col-sm-2"></div>
+	</div>
+    </div>
+</aside> 
 <footer class="py-5" id="acerca">
   <div class="container-fluid overflow-hidden">
     <div class="row">

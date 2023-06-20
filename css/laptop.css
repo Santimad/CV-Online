@@ -11,18 +11,23 @@ table{ width: 50vw; font-size: 1em;}
 #intereses > div.container > div.split > div.flex ul > li > span{margin-left: 2vw; font-size: 1em;}
 #intereses > div.container > div.split > div.flex ul > li > img {top:0.6em; left: 0.6em;}
 #intereses > div.container > div.split > div.flex ul > li:before { width: 50px; height: 50px;}
-
+*/
+/*
 **********************************************************
 THIS IS COMMENTED SINCE THE FILE WASNT ORIGINALLY INCLUDED
 **********************************************************
-
 */
 
-#fotoPerfil {
+#inicio { height: 435px;}
+#fotoDePerfil {
     height: 240px;
-    width:205px;
+    width:225px;
+ }
+ #contact_buttons {
+    margin-top: 4rem;
  }
  .descripcion-main {
     width: 80%;                                                                                 }
 .descripcion-footer{
     width: 50%;                                                                                 }
+
