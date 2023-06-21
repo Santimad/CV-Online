@@ -18,7 +18,7 @@ THIS IS COMMENTED SINCE THE FILE WASNT ORIGINALLY INCLUDED
 **********************************************************
 */
 
-#inicio { height: 435px;}
+#inicio { height: 420px;}
 #fotoDePerfil {
     height: 240px;
     width:225px;
@@ -27,7 +27,7 @@ THIS IS COMMENTED SINCE THE FILE WASNT ORIGINALLY INCLUDED
     margin-top: 4rem;
  }
  .descripcion-main {
-    width: 80%;                                                                                 }
+    width: 100%;                                                                                 }
 .descripcion-footer{
     width: 50%;                                                                                 }
 

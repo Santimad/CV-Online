@@ -1,10 +1,7 @@
 #wpButton {
   background-color:green;
  }
-#menu{
-  border-bottom:2px solid black;
-  }
-#footerPicture {
+#qr-code {
   width: 190px;
   height: 220px;
 }
@@ -19,7 +16,10 @@
   text-decoration:none;
   } 
 #acerca{
-  background-color: gold;
+  background-color: blanchedalmond;
+}
+#inicio{
+    border-top: 2px solid chocolate;
 }
 /*
 #experienciaLaboral {
@@ -58,6 +58,16 @@ background-color: blanchedalmond;
   border-top: 2px solid chocolate;
   border-bottom: 2px solid chocolate;
 }
+.bt-chocolate{
+    border-top: 2px solid chocolate;
+}
+.bb-chocolate{
+    border-bottom: 2px solid chocolate;
+}
+.by-chocolate{
+    border-top: 2px solid chocolate;
+    border-bottom: 2px solid chocolate;
+}
 /* FONT SIZES */
 
 .fs-small{
@@ -65,7 +75,12 @@ background-color: blanchedalmond;
   }
 
 /* Colores */
-
+.c-chocolate{
+    color: chocolate;
+}
+.c-blanchedalmond{
+    color:blanchedalmond;
+}
 .darkorange {
   color:darkorange;
 }
